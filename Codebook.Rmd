@@ -1,0 +1,26 @@
+---
+title: "Codebook"
+author: "Wei Hao Khoong"
+date: "28 May 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Identifiers
+There are 180 rows and 68 columns in the tidy data. 
+
+
+Variable list & descriptions
+------------------------------
+
+Variable name    | Description
+-----------------|------------
+subject          | ID the subject who performed the activity for each window sample. It ranges from 1 to 30
+activity         | The type of activity performed when the corresponding measurements were taken
+Measurements     | Mean of activity
+Labels           | Walking & Sitting
+
+
